@@ -1,0 +1,363 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/background1"
+        android:scaleY="2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/side"
+        android:layout_marginLeft="180dp"
+        android:scaleX="1.10"
+        android:alpha="0.5"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/foto2"
+        />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:src="@drawable/background"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="210dp"
+        android:scaleX="4"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:src="@drawable/background"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="310dp"
+        android:scaleX="4"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:src="@drawable/background"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="510dp"
+        android:scaleX="4"
+        />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:src="@drawable/dotdot"
+        android:layout_marginTop="484dp"
+        android:layout_marginLeft="21dp"
+        />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:src="@drawable/dotdot"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="21dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="RIFKA CANALISA RAHAYU"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT STUDENT"
+        android:textSize="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="265dp"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERSONAL PROFILE"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="I am an informatics student at UPN Veteran Yogyakarta. I am always eager to learn new things. I earn many experience, such as work under pressure, teamwork, etc. I am communicative, able to work individual or team, hard working person, and a lifetime learner."
+        android:textSize="9dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILL"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Intermediate : \n\n\nBeginner \t\t : "
+        android:textSize="9dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="PHP, C++, MySQL, Microsoft Office, Java \nMachine Learning, Data Science, Python"
+        android:textSize="9dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT ME AT:"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="570dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Email: riefka.canalisa@gmail.com \nPhone : +62 812 8856 5636 \nInstagram: @rifka.canalisa \nLinkedIn: Rifka Canalisa Rahayu \nGithub: github.com/rifkacanalisa "
+        android:textSize="9dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="590dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXPERIENCE"
+        android:textSize="11dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="212dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multimedia Community"
+        android:textSize="11dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="235dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPN Veteran Yogyakarta | April 2020 - Present"
+        android:textSize="7dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="252dp"
+        android:textColor="#0400ff"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="269dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member of photography division"
+        android:textSize="8dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="265dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACADEMIC BACKGROUND"
+        android:textSize="11dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="312dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMP Negeri 4 Depok"
+        android:textSize="11dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="335dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2012 - 2015"
+        android:textSize="7dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="352dp"
+        android:textColor="#0400ff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMA Negeri 5 Yogyakarta"
+        android:textSize="11dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="370dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015 - 2018"
+        android:textSize="7dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="387dp"
+        android:textColor="#0400ff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPN Veteran Yogyakarta"
+        android:textSize="11dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="405dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018 - Present"
+        android:textSize="7dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="422dp"
+        android:textColor="#0400ff"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="439dp"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="450dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informatics student\nCurrent GPA: 3.89"
+        android:textSize="8dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="435dp"
+        android:lineSpacingExtra="1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERTIFICATION"
+        android:textSize="11dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="512dp"
+        android:textColor="#51c0d9"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="538dp"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="550dp"
+        />
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:src="@drawable/dot"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="572dp"
+        />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="Junior Programming, LSP TIK, December 2020 \nBelajar Machine Learning untuk Pemula, Dicoding Academy, February 2021 \nPemrograman WEB dengan CodeIgniter, Informatika UPN Veteran Yogyakarta, Februari 2021"
+        android:textSize="8dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="535dp"
+        android:lineSpacingExtra="1dp"
+        />
+
+</RelativeLayout>
